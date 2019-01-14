@@ -17,7 +17,7 @@ public class Main {
 		System.out.println("test libguestfs-java");
 		GuestFS g = new GuestFS();
 		System.out.println("arik1");
-		g.add_drive("/home/ahadas/dubi/f178b13e-7d0e-4484-9f57-865bda2a6060.qcow");
+		g.add_drive("/home/ahadas/fosdem/0fab5252-4ae7-4910-aa06-9801de74c0c9.qcow");
 		System.out.println("arik2");
 		g.launch();
 		System.out.println("arik3");
